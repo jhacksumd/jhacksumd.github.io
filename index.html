@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="css/index.css">
+
+  <!-- Scripts -->
+
+
+
+</head>
+
+<body data-spy="scroll" data-target="#MainNavbar" data-offset-top="50">
+  <nav class="navbar navbar-inverse navbar-fixed-top" id="mainNavbar">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+          aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <div class="navbar-brand">JHacks</div>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+
+        </ul>
+
+        <ul class="nav white navbar-nav navbar-right">
+          <li>
+            <a class="white" href="#about">About</a>
+          </li>
+          <li>
+            <a class="white" href="#faq">FAQs</a>
+          </li>
+          <li>
+            <a class="white" href="#schedule">Schedule</a>
+          </li>
+          <li>
+            <a class="white" href="#location">Location</a>
+          </li>
+          <li>
+            <a class="white" href="#sponsor">Sponsors</a>
+          </li>
+          <li>
+            <a class="white" href="#register">Register</a>
+          </li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+  </nav>
+  <!-- Fills empty space behind the navbar -->
+  <div class="topSpace">
+  </div>
+  <!-- /////////////////////////////////////// -->
+
+  <div class="canvas">
+    <!-- triangles are generated here -->
+  </div>
+
+  <!-- About section -->
+  <div id="about">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Carousel indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <!-- Wrapper for carousel items -->
+      <div class="carousel-inner">
+        <div class="item active">
+          <img class="image" src="images/pic1.JPG" />
+        </div>
+        <div class="item">
+          <img class="image" src="images/pic2.JPG" />
+        </div>
+        <div class="item">
+          <img class="image" src="images/pic3.JPG" />
+        </div>
+      </div>
+      <!-- Carousel controls -->
+      <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+      </a>
+      <a class="carousel-control right" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+      </a>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div align="center" class="col-xs-8 col-xs-offset-2 register-card">
+          <div class="jumbotron">
+            <h3 class="date">JHacks coming March 10, 2018!</h3>
+            <a href="https://www.eventbrite.com/e/jhacks-2018-registration-41505925340?utm_source=eb_email&utm_medium=email&utm_campaign=order_confirmation_email&utm_term=eventname&ref=eemailordconf"
+              target="_blank" align="center" class="btn btn-primary btn-lg">Register Now!</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Build Something Cool -->
+  <!-- ///////////////////////// -->
+
+  <div class="container top50 bottom50" id="triangles">
+    <div class="triangleBox row">
+      <div class="col-xs-12">
+        <div class="row">
+          <h1 align="center" class="bottom50 boldThis">Hack an amazing website</h1>
+        </div>
+        <div id="slidecontainer" class="well">
+          <input class="slider1 slider" type="range" min="0" max="1" value="" step=".01" id="myRange">
+          <input class="slider2 slider" type="range" step="1" min="0" max="12" value="" id="myRange">
+          <input class="slider3 slider" type="range" value="" step="10" min="20" max="200" id="myRange">
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!-- End of About Section -->
+
+  <!-- /////////////////////////////////// -->
+  <!-- Start of FAQ section -->
+  <div class="container-fluid" id="faq">
+    <div class="top50 bottom50">
+      <div align="center">
+        <h1 class="white boldThis">FAQ's</h1>
+      </div>
+    </div>
+    <div class="col-xs-1">
+    </div>
+    <div class="col-xs-3 question">
+      <div align="center" class="q1">
+        <h1 class="boldThis">Who can participate?</h1>
+        <h3 class="white">Are you a student? Do you want make cool things? Great. Can't wait to meet you!</h3>
+      </div>
+      <div align="center" class="q4">
+        <h1 class="boldThis">Can I work on my project before the event?</h1>
+        <h3 class="white">No, we'd really like it if you started a new project for the hackathon. Take a blank canvas and paint a masterpiece!</h3>
+      </div>
+    </div>
+    <div class="col-xs-4 question">
+      <div align="center" class="q2">
+        <h1 class="boldThis">How big should my team be?</h1>
+        <h3 class="white">We suggest that participants work in teams of four. If you'd like to be on a team but can't find anyone to work with
+          you, you can sign up as an individual and we'll find a team for you.</h3>
+      </div>
+      <div align="center" class="q5">
+        <h1 class="boldThis">What should I bring?</h1>
+        <h3 class="white">Bring your laptop, cell phone, chargers, sleeping bag, pillow, change of clothes (nerdy shirts are preferred), toiletries,
+          and, of course, your creativity.</h3>
+      </div>
+    </div>
+    <div class="col-xs-3 question">
+      <div align="center" class="q3">
+        <h1 class="boldThis">Should my project be hardware or software?</h1>
+        <h3 class="white">We'll accept either, and thanks to MLH, we'll have some hardware for you to play with!</h3>
+      </div>
+      <div align="center" class="q5">
+        <h1 class="boldThis">Anything I should leave at home?</h1>
+        <h3 class="white">Please don't bring firearms or other weapons, alcohol, illegal drugs, soldering or similar equipment, animals (no
+          matter how adorable), and outside food. There will be lots of food, don't worry.</h3>
+      </div>
+    </div>
+  </div>
+
+  <!-- End of FAQ section -->
+
+  <!-- /////////////////////////////////// -->
+
+  <!-- Start of Schedule -->
+  <div class="container-fluid" id="schedule">
+    <div class="top50 bottom50">
+      <h1 class="boldThis" align="center">Schedule</h1>
+    </div>
+    <div class="night col-xs-6">
+      <h2 class="boldThis white" align="center">Saturday</h2>
+      <div class="">
+        <div class="col-xs-12">
+          <table class="table">
+            <thead>
+              <th class="white">Hour</th>
+              <th class="white">Event</th>
+            </thead>
+            <tbody>
+              <tr class="">
+                <td>
+                  <h4 class="white">7:15 PM</h4>
+                </td>
+                <td>
+                  <h4 class="white">Register/Check In</h4>
+                </td>
+              </tr>
+              <tr class="">
+                <td>
+                  <h4 class="white">8:15 PM</h4>
+                </td>
+                <td>
+                  <h4 class="white">Opening Ceremonies</h4>
+                </td>
+              </tr>
+              <tr class="">
+                <td>
+                  <h4 class="white">8:30 PM</h4>
+                </td>
+                <td>
+                  <h4 class="white">Begin Hacking</h4>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="day col-xs-6">
+      <h2 class="boldThis" align="center">Sunday</h2>
+      <div class="">
+        <div class="col-xs-12">
+          <table class="table">
+            <thead>
+              <th>Hour</th>
+              <th>Event</th>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <h4>4:00 PM</h4>
+                </td>
+                <td>
+                  <h4>Stop Hacking!</h4>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <h4>5:30 PM</h4>
+                </td>
+                <td>
+                  <h4>Winners</h4>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <h4>6:00 PM</h4>
+                </td>
+                <td>
+                  <h4>Closing Ceremonies</h4>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- End of Schedule -->
+
+  <!-- ///////////////////////////////// -->
+
+  <!-- Start of Location -->
+
+  <div id="location">
+    <div class="top50">
+      <div class="container">
+        <div class="row">
+          <div align="center">
+            <h1 class="boldThis top50 bottom50">Location</h1>
+          </div>
+          <div class="location-content">
+            <div class="row">
+              <div class="col-xs-4 col-xs-offset-2">
+                <div align="center">
+                  <div style="width:400px;height:400px;" id="map"></div>
+                </div>
+                <script>
+                  function initMap() {
+                    var hillel = { lat: 38.982751, lng: -76.948633 };
+                    var map = new google.maps.Map(document.getElementById('map'), {
+                      zoom: 15,
+                      center: hillel
+                    });
+                    var marker = new google.maps.Marker({
+                      position: hillel,
+                      map: map
+                    });
+                  }
+                </script>
+              </div>
+              <div class="col-xs-6">
+                <div align="center" class="top50 bottom50">
+                  <h2 style="text-decoration:underline; font-weight:bold;">Maryland Hillel</h2>
+                </div>
+                <div class="col-xs-6 col-xs-offset-1">
+                  <h4>7612 Mowatt Ln</h4>
+                  <h4>College Park, MD 20740</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- End of Location -->
+
+  <!-- ////////////////////////////// -->
+
+  <!-- Start of Sponsors -->
+
+  <div id="register">
+    <div class="container">
+      <div class="row">
+        <div align="center" class="col-xs-6 col-xs-offset-3 register-card">
+          <h1 class="white date">Join JHacks!</h1>
+          <a align="center" href="https://www.eventbrite.com/e/jhacks-2018-registration-41505925340?utm_source=eb_email&utm_medium=email&utm_campaign=order_confirmation_email&utm_term=eventname&ref=eemailordconf"
+            target="_blank" class="btn btn-primary btn-lg">Register Now!</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- End of Sponsors -->
+
+  <!-- //////////////////////////// -->
+
+
+  <!-- All the scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/trianglify/1.1.0/trianglify.min.js"></script>
+  <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="rangeslider/rangeslider.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/index.js"></script>
+  <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAMBc_p3jxkMuwKMb0_tiRhqA1jkz8vyhc&callback=initMap"></script>
+</body>
+<script>
+  $(document).ready(function () {
+    var colors = ["YlGnBu", "YlOrRd", "PuOr", "GnBu", "YlOrBr", "PRGn", "Purples", "Blues", "Oranges", "Reds", "Spectral", "PuRd"];
+    var choice = Math.floor(Math.random() * 13)
+    var curves = Math.random();
+    var size = [20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160, 170, 180, 190, 200];
+    var mySize = Math.floor(Math.random() * 19);
+    curves = Math.round(100 * curves) / 100;
+    var actualInnerWidth = $("body").prop("clientWidth");
+    var actualInnerHeight = $("body").prop("clientHeight");
+    var pattern = Trianglify({
+      cell_size: size[mySize],
+      variance: curves,
+      height: actualInnerHeight - 15,
+      width: actualInnerWidth,
+      x_colors: colors[choice],
+    });
+    $(".slider1").attr("value", curves);
+    $(".slider2").attr("value", choice);
+    $(".slider3").attr("value", size[mySize]);
+    $(".canvas").append(pattern.canvas());
+    $(function () {
+      var x = 20;
+      var slideVal1 = $(".slider1").val();
+      var slideVal2 = choice;
+      var slideVal3 = $(".slider3").val();
+      $('input[type=range]').on('input', function () {
+        slideVal1 = $(".slider1").val();
+        slideVal2 = $(".slider2").val();
+        slideVal3 = $(".slider3").val();
+        $("canvas").remove();
+        if (slideVal3 == 20) {
+          x = 20;
+        } else if (slideVal3 == 40) {
+          x = 40;
+        } else if (slideVal3 == 60) {
+          x = 60;
+        } else if (slideVal3 == 80) {
+          x = 80;
+        } else if (slideVal3 == 100) {
+          x = 100;
+        } else {
+          x = 120;
+        }
+
+        pattern = Trianglify({
+          cell_size: x,
+          variance: slideVal1,
+          x_colors: colors[slideVal2],
+          height: actualInnerHeight - 15,
+          width: actualInnerWidth
+        });
+        $(".canvas").append(pattern.canvas());
+      });
+    });
+
+  }); 
+</script>
+
+</html>
